@@ -1,0 +1,28 @@
+.favorites{
+  padding:clamp(1rem,2.5vw,2rem);
+  width:100%;
+}
+
+.favorites h2{
+  margin-bottom:1.25rem;
+  text-align:center;
+  font-size:clamp(1.4rem,2.8vw,2.5rem);
+}
+
+.favorites-empty{
+  text-align:center;
+  padding:2rem;
+  background:rgba(255,255,255,0.03);
+  border-radius:12px;
+  margin:1.25rem auto;
+  max-width:700px;
+}
+
+.favorites-empty h2{
+  color:var(--accent);
+  margin-bottom:0.5rem;
+}
+
+.favorites-empty p{
+  color:var(--muted);
+}
